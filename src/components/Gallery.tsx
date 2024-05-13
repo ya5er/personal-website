@@ -5,7 +5,7 @@ export function Gallery() {
             <img className="shadow-md shadow-gray-300 galleryImage mb-6 mr-3 transition" src="/gallery/gallery1.png" alt="gallery1" />
             <img className="shadow-md shadow-gray-300 galleryImage mb-6 ml-3 transition" src="/gallery/gallery2.png" alt="gallery2" />
             <img className="shadow-md shadow-gray-300 galleryImage mr-3 transition" src="/gallery/gallery3.png" alt="gallery3" />
-            <img className="shadow-md shadow-gray-300 galleryImage ml-3 transition" src="/gallery/gallery4.JPG" alt="gallery4" />
+            <img className="shadow-md shadow-gray-300 galleryImage ml-3 transition" src="/gallery/gallery5.png" alt="gallery4" />
         </div>
     );
 
