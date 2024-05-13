@@ -1,42 +1,85 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.about {
+  height: 410px;
+  max-width: 720px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.info {
+  top: -105px;
+  margin-bottom: -50px;
+  max-width: 660px;
+  min-height: 190px;
+}
+
+.info:hover {
+  transform: scale(1.02);
+}
+
+.about .profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: -225px;
+}
+
+.gallery {
+  max-width: 720px;
+}
+
+.galleryImage {
+  object-fit: cover;
+  width: calc(50% - 12px);
+  height: 250px;
+  border-radius: 15px;
+  margin: auto;
+}
+
+.galleryImage:hover {
+  transform: scale(1.03);
+}
+
+.education {
+  max-width: 700px;
+}
+
+.experience {
+  max-width: 700px;
+}
+
+.experienceCard {
+  max-width: 700px;
+}
+
+.projectCard {
+  max-width: 338px;
+}
+
+.sidebar-item {
+  transition: transform 0.3s ease;
+}
+
+.sidebar-item:hover {
+  transform: scale(1.1);
+}
+
+.sidebar {
+  height: 290px;
+}
+
+@media screen and (max-width: 999px) {
+  .sidebar {
+      display: none;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media screen and (min-width: 1000px) {
+  .sidebar {
+      display: flex;
+      flex-direction: column;
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
