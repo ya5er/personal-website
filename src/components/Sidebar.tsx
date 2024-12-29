@@ -5,6 +5,7 @@ export function Sidebar() {
             <a href="#gallery" className="text-2xl my-1 w-12 h-12 flex items-center justify-center sidebar-item">&#128248;</a>
             <a href="#education" className="text-2xl my-1 w-12 h-12 flex items-center justify-center sidebar-item">&#128218;</a>
             <a href="#experience" className="text-2xl my-1 w-12 h-12 flex items-center justify-center sidebar-item">&#128188;</a>
+            <a href="#community" className="text-2xl my-1 w-12 h-12 flex items-center justify-center sidebar-item">&#127758;</a>
             <a href="#projects" className="text-2xl my-1 w-12 h-12 flex items-center justify-center sidebar-item">&#128187;</a>
         </div>
     );

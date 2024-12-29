@@ -13,12 +13,13 @@ export function About() {
                 </ul>
             </div>
             <div className="drop-shadow-lg w-full rounded-2xl mx-auto bg-gray-100 relative info text-start py-7 px-12 transition-transform">
-                <h2 className="text-black text-2xl font-medium inter-header">Hey, I'm Yaser &#128075;</h2>
+                <h2 className="text-black text-xl font-medium inter-header">Hey, I'm Yaser &#128075;</h2>
                 <p className="mt-2 text-gray-700 inter-body">
-                    &#128218; 2nd year Computer Science student @ <span className="font-medium">University of Waterloo</span><br />
-                    &#128187; Prev. Software Developer @ <span className="font-medium">Inbenta</span>, <span className="font-medium">Rogers</span><br />
-                    &#127947; Gym and sports enthusiast<br />
-                    &#128248; Nature enjoyer and (very) casual photographer
+                    &#128218; I'm a 3rd year Computer Science student @ <span className="font-medium">University of Waterloo</span><br />
+                    &#128188; Previously, I've developed software @ <span className="font-medium">Rogers</span>, <span className="font-medium">SPS</span>, <span className="font-medium">Inbenta</span><br />
+                    <span className="block h-1"></span>
+                    &#127947; Outside of work, you may find me at the gym or playing sports <br />
+                    &#128248; I'm also a nature enjoyer and (very) casual photographer
                 </p>
             </div>
         </div>

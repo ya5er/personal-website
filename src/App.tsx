@@ -6,6 +6,7 @@ import { Experience } from './components/Experience';
 import { Sidebar } from './components/Sidebar';
 import { Projects } from "./components/Projects";
 import { Footer } from "./components/Footer";
+import { Community } from './components/Community';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Gallery />
       <Education />
       <Experience />
+      <Community />
       <Projects />
       <Footer />
     </main>
