@@ -1,9 +1,17 @@
 export const experience = [
     {
+        org: "SPS Commerce",
+        title: "Software Engineer Intern",
+        date: "Sept 2024 - Dec 2024",
+        description: "Worked on retail analytics software for global retailers and suppliers",
+        skills: ["C#", "ASP.NET", "React", "TypeScript", "AWS", "MS SQL", "Azure DevOps"],
+        logo: "/resume/sps.png"
+    },
+    {
         org: "Inbenta",
         title: "Software Developer Intern",
         date: "Jan 2024 - Apr 2024",
-        description: "Built & optimized digital instructor platforms for global banks.",
+        description: "Built & optimized digital instructor platforms for international banks.",
         skills: ["React", "JavaScript", "Redux", "PHP", "MySQL", "Laravel", "AWS (S3)", "Jenkins"],
         logo: "/resume/inbenta.jpeg"
     },
@@ -14,14 +22,31 @@ export const experience = [
         description: "Developed internal reporting & analytics tools for Wireline Network team.",
         skills: ["Python", "TypeScript", "JavaScript", "PHP", "Laravel", "MySQL"],
         logo: "/resume/rogers.jpeg"
-    },
+    }
+];
+
+export const community = [
     {
         org: "UW Blueprint",
-        title: "Software Lead",
-        date: "Sept 2023 - Present",
-        description: "Created internal tools for nonprofit organizations.",
-        skills: ["TypeScript", "Node", "Express", "React", "MongoDB", "Firebase", "Chakra UI"],
-        logo: "/resume/blueprint.jpeg"
+        skills: ["TypeScript", "Node", "Express", "React", "MongoDB", "Firebase", "Docker"],
+        logo: "/resume/blueprint.jpeg",
+        positions: [
+            {
+                title: "VP of Engineering",
+                date: "Sept 2024 - Dec 2024",
+                description: "Oversaw development teams and optimized engineering processes.",
+            },
+            {
+                title: "Technical Project Lead",
+                date: "May 2024 - Aug 2024",
+                description: "Led a team developing a resident management platform for Marillac Place.",
+            },
+            {
+                title: "Software Developer",
+                date: "Sept 2023 - Apr 2024",
+                description: "Created internal tools for the nonprofit A Better Tent City.",
+            }
+        ]
     },
     {
         org: "Midnight Sun",
